@@ -1,7 +1,7 @@
 class Ktime < Formula
   desc "A time kit"
   homepage "https://github.com/twiceyuan/ktime"
-  head "https://github.com/twiceyuan/ktime.git"
+  url "https://github.com/twiceyuan/ktime.git", :tag => '0.1'
 
   def install
     system "./gradlew installDist"
